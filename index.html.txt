@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+	<title>POTFOLIO</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <div class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><span class="f">F<span class="atema">ATEMA</span></span></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#home"><span class="mymenus">Home</span> <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about"><span class="mymenus"> About </span></a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="#skills"><span class="mymenus"> Skills </span></a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#projects"><span class="mymenus"> Project </span></a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#contact"><span class="mymenus"> Contact </span></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+       <!-- NAVDIV CLOSED HERE -->
+     </div>
+       <div>
+        <div class="allselections">
+          <div class="section home-section " id="home">
+            <div class="myinfo">
+              <span class="info-home">Hello</span><br>
+              <span class="info-home">My name is</span>
+              <div class="logo myname"data-aos="slide-right"><span class="f">F<span class="atema">ATEMA <span class="f">R<span class="atema">AJ</span></span></span></span></div>
+              <div class="info-home">I am a</div>
+              <span class="fsjd">Full Stack Java Developer</span>
+              <div>
+                <button type="button" class="rsm">RESUME</button>
+              </div>
+
+            </div>
+          </div>
+          <div class="section  about-section " id="about">
+            <div class="myimg aboutsect" align="center">
+              <img src="https://img.freepik.com/free-photo/person-front-computer-working-html_23-2150040428.jpg?size=626&ext=jpg&ga=GA1.1.1448711260.1706659200&semt=ais" width="350px" style="margin-top:50px; border-radius:50%; box-shadow: 0px 0px 30px grey;" height="350px" >
+            </div>
+            <div class="cobj aboutsect">
+              <h1 align="center" class="logo" style="margin-top: 50px;"><span class="f">A<span class="atema">BOUT</span></span></h1>
+              <p class="carrer">A Java Developer is a programmer who designs, develops, and manages Java-based applications and software. With most large organizations using Java to implement software systems and backend services, a Java developer is one of the most sought-after jobs today.</p>
+            </div>
+          </div>
+          <div class="section skills-section" id="skills" align="center">
+            <h1 class="logo"><span class="f">S<span class="atema">KILLS <span class="f">S<span class="atema">ECTION</span></span></span></span></h1>
+            <table class="tbl" width="90%" heigh="400px">
+              <tr class="rows">
+                <td align="center" valign="top" width="50%" height="200px">
+                  <div>
+                    <h3 class="skill-head"> Languages</h3>
+                    <p class="skillset"> Core Java, Java Script, HTML, CSS, 
+                    XML,SQL,JSON,C#</p>
+                  </div>
+                </td>
+                <td align="center" valign="top">
+                  <div>
+                    <h3 class="skill-head"> Api's & Framwork</h3>
+                     <p class="skillset">Collection, Stream, Restful API, JDBC, JSP, Servlets, Hibernates, Bootstrap,React JS, Spring</p>
+                  </div>
+                </td>
+              </tr>
+              <tr class="rows">
+                <td align="center" valign="top">
+                  <div>
+                    <h3 class="skill-head">Tools & Servers</h3>
+                    <p class="skillset">Eclipse, VS Code, Sublime, JIRA, Postman, FireFlink, Github, Maven, MySQL, Oracle</p>
+                  </div>
+                </td>
+                <td align="center" valign="top">
+                  <div>
+                    <h3 class="skill-head">Operating System</h3>
+                    <p class="skillset">Windows, Linux, Ubuntu, iOS, Andriod</p>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div class="section project-section" id="projects">
+            <h1 class="logo" align="center"><span class="f">P<span class="atema">ROJECT <span class="f">S<span class="atema">ECTION</span></span></span></span></h1>
+            <div class="all-projects">
+            <div class="card-group">
+        <div class="card" data-aos="slide-right">
+          <center>
+     <img src="https://www.freeiconspng.com/thumbs/calculator-icon/calculator-icon-6.png" class="card-img-top" alt="Calculator">
+   </center>
+     <div class="card-body">
+      <h5 class="card-title" align="center">Calculator</h5>
+      <p class="card-text">A calculator is a device that performs arithmetic operations on numbers. Basic calculators can do only addition, subtraction, multiplication and division mathematical calculations.</p>
+      
+    </div>
+  </div>
+  <div class="card" data-aos="slide-down">
+    <center>
+    <img src="https://icons.iconarchive.com/icons/alecive/flatwoken/512/Apps-Weather-icon.png" class="card-img-top" alt="Wheather">
+    </center>
+    <div class="card-body">
+      <h5 class="card-title" align="center">Wheather Apps</h5>
+      <p class="card-text">The weather application will provide users with real-time weather information, forecasts, and other weather-related data, which can help them make better decisions about their day-to-day activities.</p>
+    </div>
+  </div>
+  <div class="card" data-aos="slide-left">
+    <center>
+      <img src="https://www.freepnglogos.com/uploads/music-logo-black-and-white-png-21.png" class="card-img-top" alt="Music Player">
+    </center>
+    <div class="card-body">
+      <h5 class="card-title"  align="center" >Music Player</h5>
+      <p class="card-text">A mobile phone application that allows you to listen to music files stored in the phone's internal or external memory. </p>
+    </div>
+  </div>
+</div>
+         </div>
+         <div class="all-projects">
+            <div class="card-group">
+        <div class="card" data-aos="slide-right">
+     <center>
+       <img src="https://static-00.iconduck.com/assets.00/accessories-text-editor-icon-2048x2048-hca32kld.png" class="card-img-top" alt="Text Editor">
+     </center>
+     <div class="card-body">
+      <h5 class="card-title"  align="center">Text Editor</h5>
+      <p class="card-text">A text editor is a tool that allows a user to create and revise documents in a computer. Though this task can be carried out in other modes, the word text editor commonly refers to the tool that does this interactively.</p>
+    </div>
+  </div>
+  <div class="card" data-aos="slide-up">
+    <center>
+      <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/song-spotify-logo-18.png" class="card-img-top" alt="Spotify Clone">
+    </center>
+    <div class="card-body">
+      <h5 class="card-title"  align="center">Spotify Clone</h5>
+      <p class="card-text">A Spotify clone is a platform that allows users to stream music, create playlists, and follow other users, similar to the popular music streaming service, Spotify. By creating a Spotify clone using Django, you can customize the platform to your liking, add new features, and even monetize it in the future.</p>
+    </div>
+  </div>
+  <div class="card" data-aos="slide-left">
+    <center>
+      <img src="https://static.vecteezy.com/system/resources/previews/032/214/908/non_2x/employee-management-icon-vector.jpg" class="card-img-top" alt="Employee Management">
+    </center>
+    <div class="card-body" >
+      <h5 class="card-title"  align="center">Employee Management</h5>
+      <p class="card-text">Employee management is the process by which employers ensure workers perform their jobs to the best of their abilities so as to achieve business goals. It typically entails building and maintaining healthy relationships with employees, as well as monitoring their daily labor and measuring progress.</p>
+    </div>
+  </div>
+</div>
+</div>
+          </div>
+
+          <div class="section contact-section" id="contact" align="center">
+            <h1 class="logo"><span class="f">C<span class="atema">ONCATE<span class="f">S<span class="atema">ECTION</span></span></span></span></h1>
+            <table class="cnt-tbl" height="500px" width="90%">
+              <tr align="center" valign="top">
+                <td width="50%">
+                  <div class="logo">
+                    <span class="f">M<span class="atema">Y <span class="f">I<span class="atema">NFO</span></span></span></span>
+                  </div>
+                  <div>
+                    <h6 align="left" class="he">NAME:-<p align="left" class="pa">Fatema Aliakbar Raj</p></h6>
+                    <h6 align="left" class="he">CONTACTNO:-<p align="left" class="pa">9589312999</p></h6>
+                    <h6 align="left" class="em">EMAILID:-
+                      <a href="https://mail.google.com/mail/u/0/#inbox">
+                      <p align="left" class="pa">fatemaraj97@gmail.com</p></h6>
+                      </a>
+                      <h6 align="left" class="em">GITHUBID:-
+                      <a href="https://github.com/Fattu31">
+                      <p align="left" class="pa">https://github.com/Fattu31</p></h6>
+                      </a>
+                  </div>
+                </td>
+                <td>
+                 <div class="contact-form"> 
+                 </div>
+                 <form>
+           <div class="form-comp">
+          <form autocomplete="off">
+              <label>EMAIL ID</label>
+              <br>
+              <input type="text" name="name" placeholder="Email id">
+              <br><br>
+              <label>CONTACT</label>
+              <br>
+              <input type="text" name="password" placeholder="Contact no.">
+              <br><br>
+              <input type="checkbox" name="tnt" required class="ink">
+                        CHECK ME OUT
+                          <br><br>
+              <button type="submit" class="btn btn-primary">ENQUIRY</button>
+</form>
+</td>
+</tr>
+</table>
+</div>
+</div> 
+
+</div>
+         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
